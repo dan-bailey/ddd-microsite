@@ -14,8 +14,12 @@ h1, h2, h3, h4, h5, h6 {
     @apply block mx-auto pt-1 pb-1 text-3xl font-copy hover:text-goldenrod
 }
 
-blockquote {
-    @apply font-headline text-gray-800 italic
+.body-link {
+    @apply text-planty underline hover:text-rose hover:underline-offset-4
+}
+
+.img-registry {
+    @apply grayscale hover:grayscale-0 b-0 p-0
 }
 
 /* Hamburger Menu */
